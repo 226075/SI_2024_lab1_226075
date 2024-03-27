@@ -1,0 +1,44 @@
+4.$ mkdir SI_2024_lab1_226075 = за креирање на folder
+  $ cd SI_2024_lab1_226075 = влегувам во директориумот
+    git intit = за иницијализирање на репозиториум
+5.$ git remote add origin git@github.com:226075/SI_2024_lab1_226075.git = за поврзување на локалното repo со repo на GitHib
+6.$ nano README.md = правење датотека
+    git add README.md = го додава фајлот и од статус untracked преминува во статус staged
+    git commit -m "Initial commit" = го менува фајлот од статус staged  во статус unmodified
+7.$ git add --all = ги додава сите фајлови од статус untracked преминуваат во статус staged
+  $ git commit -m "Add starter code" = го менува фајлот од статус staged  во статус unmodified на сите фајлови  
+8.$ git fetch origin = за синхронизирање на сите гранки со remote repo
+  $ git push origin master = за додавање на сите локални комити на remote repo
+9.$ git branch bug1  = креирање на гранка која се разгранува од master
+  $ git branch bug2  = креирање на гранка која се разгранува од master
+10.$ git checkout bug1 = префлање на гранката bug1
+11.$ git commit -am  "Fix wrong condition in filterOddLengthStrings." = се наоѓаме на гранката bug1 па сите фајлови од untracked 
+   преминуваат во статус staged па потоа во статус unmodified
+12.$ git checkout bug2 = префлање на гранката bug2
+13.$ git commit -am "Fix wrong condition in makeBigStringFrom." = се наоѓаме на гранката bug2 па сите фајлови од untracked 
+   преминуваат во статус staged па потоа во статус unmodified
+14.$ git checkout bug1 = префлање на гранката bug1
+15.$ git commit -am " Call method filterOddLengthStrings in main class." = се наоѓаме на гранката bug1 па сите фајлови од untracked 
+   преминуваат во статус staged па потоа во статус unmodified
+16.$ git checkout bug2 = префлање на гранката bug2
+17.$ git commit -am "Call method makeBigStringFrom in main class." = се наоѓаме на гранката bug2 па сите фајлови од untracked 
+   преминуваат во статус staged па потоа во статус unmodified
+18.$ git fetch origin = ги синхронизираме сите гранки со remote repo
+   $ git push origin bug1 = за додавање на сите локални комити на remote repo 
+   $ git push origin bug2 = за додавање на сите локални комити на remote repo
+19.$ git checkout master = префрлање на гранката master
+20.$ git merge bug1 = спојување на гранката bug1 со master
+21.$ git fetch origin = ги синхронизираме сите гранки со remote repo
+22.$ get checkout bug2 = префрлање на гранката bug2
+23.$ git rebase master = правење rebase спрема гранката master
+   $ git add --all
+   $ git rebase --continue
+24.$ git checkout master = префрлање на гранката master
+25.$ git merge bug2 = спојување на гранката bug2 со master
+26.$ git fetch origin = ги синхронизираме сите гранки со remote repo
+   $ git push origin bug1
+   $ $ git push origin master
+27.$ git push origin bug2 --force
+28.$ nano logs.txt
+   $ git log
+ls

@@ -1,0 +1,35 @@
+commit f27d0ea89e5eff62e318e9d2ec28c7d557a515b9 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Petar Dimovski <petar.dimovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 27 11:47:28 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+commit e701ca3fef47cb76f0d8e7d6d59acbae2ac53818
+Author: Petar Dimovski <petar.dimovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 27 11:43:28 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom.
+
+commit 3d005fd0bb42e22f8b91e47bd7a3278ec80cc6ef (origin/bug1, bug1)
+Author: Petar Dimovski <petar.dimovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 27 11:46:30 2024 +0100
+
+    Call method filterOddLengthStrings in main class.
+
+commit a6a2e9342f95196d020745a0892c2407d781097a
+Author: Petar Dimovski <petar.dimovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 27 11:42:18 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit cbb02e28456d66be5aec8796a1524453374f76e6
+Author: Petar Dimovski <petar.dimovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 27 11:38:36 2024 +0100
+
+    Add starter code
+
+commit 03724d3d6605d039ccdf51aa3c4baa061a2a854b
+Author: Petar Dimovski <petar.dimovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 27 11:36:40 2024 +0100
+
+    Initiai commit
